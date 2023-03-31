@@ -1,0 +1,23 @@
+.headerContainer {
+  display: flex;
+  width: 100%;
+  padding: 1.5rem 2.5rem;
+  .navLink {
+    color: var(--light-white);
+    font-family: medium;
+    margin-right: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .headerContainer {
+    padding: 1rem .5rem;
+    .mobileBtn {
+      border: .25px solid var(--light-white);
+      color: var(--light-white);
+      i {
+        color: var(--light-white);
+      }
+    }
+  }
+}

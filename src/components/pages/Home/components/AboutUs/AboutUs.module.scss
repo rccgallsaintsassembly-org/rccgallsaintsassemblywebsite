@@ -1,0 +1,238 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem 10rem;
+  .title {
+    font-family: bold;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  .textContainer {
+    display: flex;
+    width: 100%;
+    p {
+      font-size: 1.15rem;
+    }
+    .iconAndText {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      i {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        color: var(--primary);
+      }
+    }
+    .firstSection {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      .titleText {
+        font-size: 3rem;
+        font-family: bold;
+        margin-bottom: .15rem;
+      }
+      
+    }
+    .innerItems {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    .secondSection {
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      width: 50%;
+      .emphasis {
+        font-family: semi-bold;
+        margin-top: 1.5rem;
+      }
+      .capsuleDiv {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+      }
+      .capsuleAndText {
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+        align-items: center;
+        .capsule {
+          padding: .75rem 1rem;
+          text-align: center;
+          background-color: var(--primary);
+          color: white;
+          border-radius: var(--very-cornered-radius);
+          max-width: 16rem;
+          min-width: 13rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .aboutContainer {
+    padding: 1rem 1.5rem;
+    min-height: 100%;
+    height: 100%;
+    .title {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .textContainer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      p {
+        font-size: 1.15rem;
+      }
+      .firstSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .titleText {
+          font-size: 1.5rem;
+          font-family: bold;
+          margin-bottom: .15rem;
+          text-align: center;
+        }
+        .iconAndText {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .innerItems {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1rem;
+      }
+      .secondSection {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 100%;
+        // height: 55rem;
+        .emphasis {
+          font-family: semi-bold;
+          margin-top: 1.5rem;
+          text-align: center;
+        }
+        .capsuleDiv {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 2rem;
+          padding: 0rem 1rem;
+        }
+        .capsuleAndText {
+          display: flex;
+          flex-direction: column-reverse;
+          margin: 0rem 0rem 1rem;
+          align-items: center;
+          width: 100%;
+          .capsule {
+            padding: .75rem 1rem;
+            text-align: center;
+            background-color: var(--primary);
+            color: white;
+            border-radius: var(--very-cornered-radius);
+            max-width: 100%;
+            min-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .aboutContainer {
+    padding: 1rem 1.5rem;
+    min-height: 100%;
+    height: 100%;
+    .title {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .textContainer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      p {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .titleText {
+          font-size: 2.5rem;
+          font-family: bold;
+          margin-bottom: .15rem;
+          text-align: center;
+        }
+        .iconAndText {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .innerItems {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1rem;
+      }
+      .secondSection {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 100%;
+        .emphasis {
+          font-family: semi-bold;
+          margin-top: 1.5rem;
+        }
+        .capsuleDiv {
+          display: flex;
+          width: 100%;
+          margin-top: 2rem;
+        }
+        .capsuleAndText {
+          display: flex;
+          align-items: center;
+          .capsule {
+            padding: .75rem 1rem;
+            text-align: center;
+            background-color: var(--primary);
+            color: white;
+            border-radius: var(--very-cornered-radius);
+            font-size: 1.5rem;
+            // max-width: 100%;
+            // min-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1336px) {
+  .aboutContainer {
+    padding: 1rem 3.5rem;
+    min-height: 100%;
+    height: 100%;
+  }
+}

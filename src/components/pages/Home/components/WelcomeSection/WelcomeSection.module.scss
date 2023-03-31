@@ -1,0 +1,65 @@
+.welcomeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.652), rgba(0, 0, 0, 0.658)), url('../../../../../assets/images/homepage6.jpg');
+  // background-image: url('../../../../../assets/images/homepage1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .welcomeBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    .title {
+      color: white;
+      font-size: 4.5rem;
+      margin-bottom: 1rem;
+      font-family: semi-bold;
+      letter-spacing: 2px;
+    }
+    .secondText {
+      color: var(--light-white);
+      // margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+    }
+    button {
+      padding: .75rem 1.25rem;
+      border-radius: var(--normal-radius);
+      font-family: medium;
+      color: white;
+      background-color: var(--primary);
+      border: none;
+      margin-bottom: 3rem;
+      margin-top: 2rem;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .welcomeContainer {
+    .welcomeBlock {
+      .title {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .welcomeContainer {
+    .welcomeBlock {
+      .secondText {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

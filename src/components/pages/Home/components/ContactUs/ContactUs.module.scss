@@ -1,0 +1,286 @@
+.contactContainer {
+  display: flex;
+  // flex-direction: row-reverse;
+  width: 100%;
+  height: 100vh;
+  margin-top: 3rem;
+  .formSection {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 10rem;
+    .title {
+      font-family: bold;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 2rem;
+      .formRow {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1rem;
+        .formGroup {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+        .formGroup:last-child {
+          margin-left: 1rem;
+        }
+        label {
+          font-family: medium;
+          margin-bottom: .5rem;
+        }
+        textarea {
+          height: 10rem;
+        }
+        button {
+          padding: .5rem 1rem;
+          background-color: var(--primary);
+          color: white;
+          border: none;
+          border-radius: var(--small-radius);
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .contactSection {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--primary);
+    padding: 3rem 2rem;
+    .title {
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      color: white;
+      font-size: 1.6rem;
+      font-family: light;
+    }
+    .contactInfo {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+    .iconAndText {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      margin-bottom: 1.75rem;
+      color: var(--light-white);
+      i {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+      }
+    }
+    .socialRow {
+      display: flex;
+      width: 100%;
+      color: white;
+      i {
+        font-size: 2.5rem;
+        margin-right: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    .formSection {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 3rem 1rem;
+      .title {
+        font-family: bold;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2rem;
+        .formRow {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-bottom: 0rem;
+          .formGroup {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 1rem;
+          }
+          .formGroup:last-child {
+            margin-left: 0rem;
+          }
+          label {
+            font-family: medium;
+            margin-bottom: .5rem;
+          }
+          textarea {
+            height: 10rem;
+          }
+          button {
+            padding: .5rem 1rem;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: var(--small-radius);
+          }
+        }
+      }
+    }
+    .contactSection {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      background-color: var(--primary);
+      padding: 3rem 2rem;
+      .title {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        color: white;
+        font-size: 1.6rem;
+        font-family: light;
+      }
+      .contactInfo {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+      }
+      .iconAndText {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 1.75rem;
+        color: var(--light-white);
+        i {
+          margin-right: 1rem;
+          font-size: 1.5rem;
+        }
+      }
+      .socialRow {
+        display: flex;
+        width: 100%;
+        color: white;
+        i {
+          font-size: 2.5rem;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    .formSection {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 3rem 3rem;
+      .title {
+        font-family: bold;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2rem;
+        .formRow {
+          display: flex;
+          width: 100%;
+          margin-bottom: 0rem;
+          .formGroup {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 1rem;
+          }
+          label {
+            font-family: medium;
+            margin-bottom: .5rem;
+          }
+          textarea {
+            height: 10rem;
+          }
+          button {
+            padding: .5rem 1rem;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: var(--small-radius);
+          }
+        }
+      }
+    }
+    .contactSection {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      background-color: var(--primary);
+      padding: 3rem 2rem;
+      .title {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        color: white;
+        font-size: 1.6rem;
+        font-family: light;
+      }
+      .contactInfo {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+      }
+      .iconAndText {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 1.75rem;
+        color: var(--light-white);
+        i {
+          margin-right: 1rem;
+          font-size: 1.5rem;
+        }
+      }
+      .socialRow {
+        display: flex;
+        width: 100%;
+        color: white;
+        i {
+          font-size: 2.5rem;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1336px) {
+  .contactContainer {
+    .formSection {
+      padding: 3rem 4rem;
+    }
+  }
+}

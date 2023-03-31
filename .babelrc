@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./"],
+      "extension": [
+          ".js",
+          ".ts",
+          ".tsx",
+          ".jsx"
+      ],
+      "alias": {
+        "@atoms": "./src/components/common/atoms",
+        "@molecules": "./src/components/common/molecules"
+      }
+    }]
+  ]
+}
