@@ -35,6 +35,39 @@
   }
 }
 
+@media only screen and (max-width: 699px) {
+  .footerContainer {
+    padding: 0rem 1rem;
+    .innerContainer {
+      .iconContainer {
+        .iconItem {
+          margin-right: 1.5rem;
+          i {
+            font-size: 1.5rem;
+          }
+        }
+      }
+  
+    }
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .footerContainer {
+    padding: 0rem 3rem;
+    .innerContainer {
+      .iconContainer {
+        .iconItem {
+          margin-right: 2rem;
+          i {
+            font-size: 2rem;
+          }
+        }
+      }
+  
+    }
+  }
+}
+
 @media only screen and (min-width: 1025px) and (max-width: 1336px) {
   .footerContainer {
     padding: 0rem 4rem;
