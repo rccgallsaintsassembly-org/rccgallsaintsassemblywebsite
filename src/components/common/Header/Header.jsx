@@ -5,7 +5,7 @@ function Header() {
   return (
     <nav className={` ${classes.headerContainer} navbar navbar-expand-lg`}>
       <div className="container-fluid">
-        <LogoLight />
+        <LogoLight width='6rem' />
         <button className={` ${classes.mobileBtn} navbar-toggler`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           {/* <span className="navbar-toggler-icon"></span> */}
           <i className="fa-solid fa-bars"></i>

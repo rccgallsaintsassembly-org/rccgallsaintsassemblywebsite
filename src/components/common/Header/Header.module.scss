@@ -7,11 +7,17 @@
     font-family: medium;
     margin-right: 2rem !important;
   }
+  svg {
+    margin-right: 3rem;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .headerContainer {
     padding: 1rem .5rem;
+    svg {
+      margin-right: 0rem;
+    }
     .mobileBtn {
       border: .25px solid var(--light-white);
       color: var(--light-white);
