@@ -110,7 +110,7 @@ function ContactUs() {
         <div className={classes.contactInfo}>
           <div className={classes.iconAndText}>
             <i className="fa-solid fa-location-dot"></i>
-            <p>Central Hall, Duncombe St, Grimsby. DN322 7EG</p>
+            <p>Central Hall, Duncombe St, Grimsby. DN32 7EG</p>
           </div>
           <div className={classes.iconAndText}>
             <i className="fa-solid fa-phone"></i>
