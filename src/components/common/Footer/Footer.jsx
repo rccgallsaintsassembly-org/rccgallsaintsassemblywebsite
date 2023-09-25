@@ -17,6 +17,9 @@ function Footer() {
           <div className={classes.iconItem}>
             <i onClick={() => openLink("https://www.instagram.com/rccgallsaintsassembly/")} class="fa-brands fa-square-instagram"></i>
           </div>
+          <div className={classes.iconItem}>
+            <i onClick={() => openLink("https://youtube.com/@RCCGAllSaintsAssembly?si=OLofJxIxkqQHv5WU")} class="fa-brands fa-youtube"></i>
+          </div>
         </div>
 
       </div>
