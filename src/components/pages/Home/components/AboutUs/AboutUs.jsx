@@ -1,3 +1,4 @@
+import FirstTimer from "../FirstTimer/FirstTimer"
 import classes from "./AboutUs.module.scss"
 
 function AboutUs() {
@@ -51,6 +52,7 @@ function AboutUs() {
         </div>
 
       </div>
+      <FirstTimer />
     </div>
   )
 }

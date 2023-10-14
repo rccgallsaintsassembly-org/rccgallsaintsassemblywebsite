@@ -1,0 +1,148 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #00808099;
+  padding: 2rem;
+  .whiteTitle {
+    font-family: semi-bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+  }
+  .whiteText {
+    font-family: medium;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+  }
+  .innerCard{
+    background-color: white;
+    display: flex;
+    border-radius: var(--normal-radius);
+    width: 70%;
+    height: 22rem;
+    margin-bottom: 1.5rem;
+
+    .pictureSection{
+      width: 50%;
+      height: 100%;
+      background-image: url('../../../../../assets/images/multicolor-abstract.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: var(--normal-radius) 0px 0px var(--normal-radius);
+    }
+    .textSection {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 3rem;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      .title {
+        font-family: semi-bold;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+
+      }
+      button {
+        padding: .75rem 1.25rem;
+        border-radius: var(--normal-radius);
+        font-family: medium;
+        color: white;
+        background-color: var(--primary);
+        border: none;
+        margin-top: 2rem;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 699px) {
+  .parent {
+    padding: 2rem;
+    .whiteTitle {
+      font-size: 1.5rem;
+    }
+    .whiteText {
+      font-size: 1.25rem;
+    }
+    .innerCard{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: var(--normal-radius);
+      width: 100%;
+      height: 100%;
+  
+      .pictureSection{
+        width: 100%;
+        height: 6rem;
+        border-radius: var(--normal-radius) var(--normal-radius) 0px 0px;
+      }
+      .textSection {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        font-size: 1.25rem;
+        .title {
+          font-family: semi-bold;
+          font-size: 1.52rem;
+          margin-bottom: 1rem;
+  
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .parent {
+    padding: 2rem;
+    .whiteTitle {
+      font-size: 2rem;
+    }
+    .whiteText {
+      font-size: 1.5rem;
+    }
+    .innerCard{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      border-radius: var(--normal-radius);
+      width: 100%;
+      height: 100%;
+      p {
+        font-size: 1.45rem;
+      }
+  
+      .pictureSection{
+        width: 100%;
+        height: 6rem;
+        border-radius: var(--normal-radius) var(--normal-radius) 0px 0px;
+      }
+      .textSection {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        font-size: 1.5rem;
+        .title {
+          font-family: semi-bold;
+          font-size: 1.52rem;
+          margin-bottom: 1rem;
+  
+        }
+      }
+    }
+  }
+}
