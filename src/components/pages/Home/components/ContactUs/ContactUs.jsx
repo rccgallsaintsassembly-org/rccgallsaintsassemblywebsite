@@ -114,7 +114,7 @@ function ContactUs() {
           </div>
           <div className={classes.iconAndText}>
             <i className="fa-solid fa-phone"></i>
-            <p>+44 7773 455349</p>
+            <p>01472400800</p>
           </div>
           <div className={classes.iconAndText}>
             <i className="fa-solid fa-envelope"></i>
