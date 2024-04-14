@@ -13,7 +13,7 @@ function AboutUs() {
           <div className={classes.innerItems}>
             <div className={classes.iconAndText}>
               <i className="fa-solid fa-location-dot"></i>
-              <p>Central Hall, Duncombe St, Grimsby. DN32 7EG</p>
+              <p>St Hughs Center, Haycroft St, Grimsby DN31 2ED</p>
             </div>
 
           </div>
